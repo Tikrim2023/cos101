@@ -13,5 +13,7 @@ clock__label = tk.Label(root, font=("Elephant", 80), fg= "black", bg="pink")
 
 clock__label.pack(fill="both", expand=True)
 
+print("Hello")
+
 update__time()
 root.mainloop()
